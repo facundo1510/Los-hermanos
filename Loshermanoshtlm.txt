@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Los Hermanos - Verdulería</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .content {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section h2 {
+      color: #4CAF50;
+      margin-bottom: 10px;
+    }
+    .location, .contact {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .whatsapp-button {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .whatsapp-button:hover {
+      background-color: #1ebe5d;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Verdulería Los Hermanos</h1>
+    <p>Frutas y verduras frescas todos los días</p>
+  </header>
+
+  <div class="content">
+    <div class="section location">
+      <h2>Ubicación</h2>
+      <p>Nos encontrás en la esquina de <strong>18 de julio y Oribe</strong>, La Floresta, Canelones.</p>
+    </div>
+
+    <div class="section contact">
+      <h2>Contacto</h2>
+      <p>Para pedidos o consultas, escribinos por WhatsApp:</p>
+      <a class="whatsapp-button" href="https://wa.me/59893454197" target="_blank">
+        Contactar por WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Verdulería Los Hermanos - Todos los derechos reservados.
+  </footer>
+</body>
+</html>
